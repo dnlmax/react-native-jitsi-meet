@@ -57,7 +57,7 @@ public class RNJitsiMeetModule extends ReactContextBaseJavaModule {
                             .setRoom(url)
                             .setAudioOnly(false)
                             .setWelcomePageEnabled(false)
-                            .setFeatureFlag("pip.enabled",false)
+                            //.setFeatureFlag("pip.enabled",false)
                             .setFeatureFlag("calendar.enabled",false)
                             .setFeatureFlag("call-integration.enabled",false)
                             .setFeatureFlag("add-people.enabled",false)
